@@ -145,7 +145,7 @@
         <footer id="ts-footer">
             <div class="p-4 ts-block text-center">
                 <div class="container">
-                    <small>© <?php echo date('Y'); ?> <a href="http://www.youds.com/">Youds Media Ltd</a> &middot; All Rights Reserved.</small>
+                    <a href="https://www.youds.com">Ban The Bots</a> © 2018 by <a href="http://www.youds.com/">Youds Media Limited</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
                 </div>
                 <!--end container-->
             </div>
