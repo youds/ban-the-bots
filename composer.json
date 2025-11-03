@@ -3,5 +3,10 @@
   "description": "Take Control Back On The Web",
   "require": {
     "php": ">=5.3"
+  },
+  "autoload": {
+    "files": [
+      "src/BanTheBots.class.php"
+    ]
   }
 }
