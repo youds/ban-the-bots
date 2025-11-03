@@ -24,11 +24,11 @@ Once they visit the blackhole the IP address will be blacklisted and all future 
 
 ## Get The Code
 
-PHP Pack: https://01.youds.dev/banthebots.cloud/downloads/kits.zip
+Run `composer require youds/ban-the-bots` then in your codebase simply instantiate the class `$badBots = new BanTheBots();` and call the method `$badBots->apply();`. Simple as that.
 
 ## Central API
 
-Coming Soon - Notify us of the bad bots and we will let you know what information we have from all notifications.
+The `youds/ban-the-bots` package uses the Central API to manage blacklisted IP addresses and bot behavior. This API provides a centralized platform for tracking and managing bot activity across multiple websites.
 
 ## Other Languages
 

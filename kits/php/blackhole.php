@@ -1,1 +1,0 @@
-<?php session_start(); $_SESSION['BOT'] = 'BANNED';  exit('Thanks for visiting.'); // did not conform to robots.txt ?>
