@@ -2,7 +2,7 @@
   "name": "youds/ban-the-bots",
   "description": "Take Control Back On The Web",
   "require": {
-    "php": ">=5.3"
+    "php": ">=5.4"
   },
   "autoload": {
     "files": [
