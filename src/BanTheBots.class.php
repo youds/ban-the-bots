@@ -10,84 +10,18 @@ class BanTheBots
     private $robotsPath;
     private $blackholePath;
 
-    static private $BAN_MESSAGE;
-
-    public function __construct(array $config = [])
-    {
-        self::$BAN_MESSAGE = '
+    static private $BAN_MESSAGE = '
 <style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+    * {margin: 0;padding: 0;box-sizing: border-box;}
 
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f5f5f5;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .error-container {
-        text-align: center;
-        padding: 2rem;
-        max-width: 600px;
-        width: 90%;
-    }
-
-    .error-icon {
-        font-size: 5rem;
-        color: #dc3545;
-        margin-bottom: 1.5rem;
-    }
-
-    .error-title {
-        font-size: 2rem;
-        color: #333;
-        margin-bottom: 1rem;
-    }
-
-    .error-message {
-        font-size: 1.1rem;
-        color: #666;
-        line-height: 1.5;
-        margin-bottom: 2rem;
-    }
-
-    .error-button {
-        display: inline-block;
-        padding: 0.8rem 1.5rem;
-        background-color: #007bff;
-        color: white;
-        text-decoration: none;
-        border-radius: 4px;
-        transition: background-color 0.3s;
-    }
-
-    .error-button:hover {
-        background-color: #0056b3;
-    }
-
-    @media (max-width: 480px) {
-        .error-container {
-            padding: 1.5rem;
-        }
-
-        .error-icon {
-            font-size: 4rem;
-        }
-
-        .error-title {
-            font-size: 1.5rem;
-        }
-
-        .error-message {
-            font-size: 1rem;
-        }
-    }
+    body {font-family: Arial, sans-serif;background-color: #f5f5f5;min-height: 100vh;display: flex;align-items: center;justify-content: center;}
+    .error-container {text-align: center;padding: 2rem;max-width: 600px;width: 90%;}
+    .error-icon {font-size: 5rem;color: #dc3545;margin-bottom: 1.5rem;}
+    .error-title {font-size: 2rem;color: #333;margin-bottom: 1rem;}
+    .error-message {font-size: 1.1rem;color: #666;line-height: 1.5;margin-bottom: 2rem;}
+    .error-button {display: inline-block;padding: 0.8rem 1.5rem;background-color: #007bff;color: white;text-decoration: none;border-radius: 4px;transition: background-color 0.3s;}
+    .error-button:hover {background-color: #0056b3;}
+    @media (max-width: 480px) {.error-container {padding: 1.5rem;}.error-icon {font-size: 4rem;}.error-title {font-size: 1.5rem;}.error-message {font-size: 1rem;}}
 </style>
 
 <div class="error-container">
